@@ -5,14 +5,23 @@ body{
     font-family: 'Raleway', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
+
 .list{
     list-style: none;
 }
+
 .link{
     text-decoration: none;
-    }
+}
+
 img{
     display: block;
+}
+
+/* шапка */
+
+.header{
+    background-color: #FFFFFF;
 }
 
 /* логотип в шапке*/
@@ -26,6 +35,7 @@ img{
     letter-spacing: 0.03em;
     color: #2196F3;
 }
+
 .header-logo-studio{
     color: #000000;
 }
@@ -49,6 +59,11 @@ img{
 
 /* контакти */
 
+.header-contacts:hover,
+.header-contacts:focus{
+    color: #2196F3;
+}
+
 .header-contacts{
     font-family: 'Roboto';
     font-style: normal;
@@ -71,11 +86,12 @@ img{
     font-weight: 900;
     font-size: 44px;
     line-height: 60px;
-    text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #FFFFFF;
 }
+
+/* кнопка */
 
 .hero-button:hover,
 .hero-button:focus{
@@ -91,7 +107,6 @@ img{
     line-height: 30px;
     display: flex;
     align-items: center;
-    text-align: center;
     letter-spacing: 0.06em;
     color: #FFFFFF;
     cursor: pointer;
@@ -126,16 +141,17 @@ img{
 }
 
 /* чим ми займаемось */
+
 .portfolio{
     background-color: #F5F5F5;
 }
+
 .portfolio-title{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
-    text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
 }
@@ -145,48 +161,159 @@ img{
 .team{
     background-color: #F5F5F5;
 }
+
+.team-fotocard{
+    background-color: #FFFFFF;
+}
+
 .team-tatle{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
-    text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
 }
 
+.team-name{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: #212121;
+
+}
+
+.team-profession{
+    font-family: 'Roboto';  
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+/* підвал */
+
+.footer{
+    background-color: #2F303A;
+}
+
+/* логотип у пидвалі */
+
+.footer-logo-web{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+
+.footer-logo-studio{
+    color: #FFFFFF;
+}
+
+/* контактні данні */
+
+
+.footer-adress:hover,
+.footer-adress:focus{
+    color: #2196F3;
+}
+
+.footer-contacts:hover,
+.footer-contacts:focus{
+    color: #2196F3;
+}
+
+.footer-adress{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.footer-contacts{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
 
 
 
+/* сторінка портфоліо */
+/* шапка та підвал такіж самі */
 
+.page-portfolio{
+    background-color: #F5F5F5;
+}
 
+/* кнопка */
 
+.page-portfolio-btn:hover,
+.page-portfolio-btn:focus{
+    color: #FFFFFF;
+    background-color: #2196F3;;
+}
 
+.page-portfolio-btn{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    background-color: #F5F4FA;
+    cursor: pointer;
+}
 
+/* фильтри та карточки */
 
+.page-portfolio-card:hover,
+.page-portfolio-card:focus
 
+img{
+    display: block;
+}
 
+.page-portfolio-card{
+    background-color: #FFFFFF;
+}
 
+.page-portfolio-title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.page-portfolio-text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
 
 
 
