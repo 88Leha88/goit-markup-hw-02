@@ -52,7 +52,7 @@ img{
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     color: #212121;
 }
@@ -69,7 +69,7 @@ img{
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 0.88;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     color: #757575;
 }
@@ -85,7 +85,7 @@ img{
     font-style: normal;
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
+    line-height: 1.36;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #FFFFFF;
@@ -104,7 +104,7 @@ img{
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.88;
     display: flex;
     align-items: center;
     letter-spacing: 0.06em;
@@ -118,62 +118,38 @@ img{
     background-color: #F5F5F5;
 }
 
-.features-title{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #212121;
-}
-
+.features-title,
 .features-subtitle{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #212121;
 }
 
-/* чим ми займаемось */
+/* чим ми займаемось
+ та наша команда */
 
 .portfolio{
     background-color: #F5F5F5;
 }
 
-.portfolio-title{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 42px;
-    letter-spacing: 0.03em;
-    color: #212121;
-}
-
-/* наша команда */
-
-.team{
-    background-color: #F5F5F5;
-}
-
-.team-fotocard{
-    background-color: #FFFFFF;
-}
-
+.portfolio-title,
 .team-tatle{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     color: #212121;
+}
+
+.team-fotocard{
+    background-color: #FFFFFF;
 }
 
 .team-name{
@@ -181,10 +157,9 @@ img{
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.19;
     letter-spacing: 0.03em;
     color: #212121;
-
 }
 
 .team-profession{
@@ -192,7 +167,7 @@ img{
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.19;
     letter-spacing: 0.03em;
     color: #757575;
 }
@@ -210,7 +185,7 @@ img{
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.19;
     letter-spacing: 0.03em;
     color: #2196F3;
 }
@@ -237,7 +212,7 @@ img{
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height:1.71;
     letter-spacing: 0.03em;
     color: #FFFFFF;
 }
@@ -247,7 +222,7 @@ img{
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
@@ -274,7 +249,7 @@ img{
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 1.63;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
@@ -300,7 +275,7 @@ img{
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
-    line-height: 36px;
+    line-height: 2;
     letter-spacing: 0.06em;
     color: #212121;
 }
@@ -310,7 +285,7 @@ img{
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.88;
     letter-spacing: 0.03em;
     color: #757575;
 }
